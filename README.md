@@ -10,6 +10,7 @@ Banking institutions are obligated by the Royal Edict of Thailand to be responsi
 <img width="578" height="281" alt="Image" src="https://github.com/user-attachments/assets/774e256e-c2f1-4b7d-9802-7e8a12ebaacd" />
 
 Figure 1: classification of mule accounts based on Bank of Thailand (BioCatch)
+
 Since 2024, the Bank of Thailand has promoted a stronger process for identifying and monitoring suspicious accounts, with an immediate response of freezing transactions for Black, Grey, and Dark brown accounts. However, accounts with suspected involvement (Light brown) still lack appropriate measures and policies due to the banks' fear of legal action regarding false positives. Consequently, financial institutions are restricted to monitoring these suspected accounts, leaving a gap that continues to result in significant financial losses for victims. (Bank of Thailand, 2025) 
 Bank's Pain point
 	Because financial institutions may face legal repercussions for false positives, they often limit their action to passive monitoring. Consequently, victims continue to suffer significant financial losses, as banks lack the necessary measures to effectively warn against or prevent these suspicious transactions.
