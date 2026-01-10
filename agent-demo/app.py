@@ -1,8 +1,6 @@
 import json
 
 import streamlit as st
-
-# import google.generativeai as genai
 from google import genai
 
 # Page configuration
