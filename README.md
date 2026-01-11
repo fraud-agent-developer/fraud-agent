@@ -6,13 +6,19 @@ https://fraud-agent-7m8bawxsx-akkanits-projects.vercel.app/
 
 # Hong Yok Project Full Documentation
 
+### System Workflow Diagram
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9aa3cd10-ac65-4e30-86a6-5d438bc86ea3" />
+
+Figure 1: System Workflow diagram
+
 
 ### Introduction
 Banking institutions are obligated by the Royal Edict of Thailand to be responsible for taking down mule accounts and implementing appropriate responses and prevention for this cause. Based on Bank of Thailand's classifications of mule accounts, there are five majors categories with different implementations from banking institutes and bank of thailand. 
 
 <img width="578" height="281" alt="Image" src="https://github.com/user-attachments/assets/774e256e-c2f1-4b7d-9802-7e8a12ebaacd" />
 
-Figure 1: classification of mule accounts based on Bank of Thailand (BioCatch)
+Figure 2: classification of mule accounts based on Bank of Thailand (BioCatch)
 
 Since 2024, the Bank of Thailand has promoted a stronger process for identifying and monitoring suspicious accounts, with an immediate response of freezing transactions for Black, Grey, and Dark brown accounts. However, accounts with suspected involvement (Light brown) still lack appropriate measures and policies due to the banks' fear of legal action regarding false positives. Consequently, financial institutions are restricted to monitoring these suspected accounts, leaving a gap that continues to result in significant financial losses for victims. (Bank of Thailand, 2025) 
 Bank's Pain point
@@ -47,11 +53,7 @@ The objective of this engine is to determine the most effective way to communica
 This engine uses Multi-Armed Bandit (MAB) for reinforcement learning or a Transformer-based Cross-Encoder for content ranking. The data inputs feature: User demographics(Geological location, age group); Risks context from risk-scoring engine. Hong Yok will continuously provide personality quizzes that are not complicated and engaging for users to collect these data. These personality quizzes are designed to have high-quality UI for users to share or post in social media e.g. personality in red-flower means having good money-managements and like to invest etc. 
 Each resulting message is delivered through a user-friendly Budgerigar bird mascot whose state differs based on tiers and classifications of the transaction risk. For instance, in a completely safe or low risk transaction, Budgerigar mascot will appear to be green and happy while delivering messages and analysis of the transaction risks. On the other hand, Budgerigar mascot will appear to be panicked or alert in high-risk transactions while delivering appropriate frictions and warnings to the user. 
 
-### System Workflow Diagram
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9aa3cd10-ac65-4e30-86a6-5d438bc86ea3" />
-
-Figure 2: System Workflow diagram
 
 ### Design of mascots
 Hong Yok platform uses mascot name "Nong Hong Yok" (น้องหงษ์หยก) based on Budgerigar bird. The mascots are designed to be user-friendly and create connections with users every time they open an online banking application. The initial design of the mascot: 
